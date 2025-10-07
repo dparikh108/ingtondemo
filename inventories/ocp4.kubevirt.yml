@@ -1,7 +1,5 @@
-- plugin: redhat.openshift_virtualization.kubevirt
-  connections:
-  - name: ingtondemo
-    namespace:
-      - demovms
-    network_name: default
-  host_format: "{name}"
+plugin: redhat.openshift_virtualization.kubevirt
+connections:
+  namespace:
+    - demovms
+  network_name: default
